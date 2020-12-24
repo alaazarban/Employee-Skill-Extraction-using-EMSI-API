@@ -62,8 +62,7 @@ extract_skills_list()
 
 I set the url to the skills list endpoint, concatenated the access token in with the necessary syntactical specifications for the API, and used the requests library to get the data. This results in the following global list of skills:
 
-![Image of skills from EMSI API]
-(https://miro.medium.com/max/1236/1*phFqrSRFeVrTnktme3pEQA.png)
+![Image of skills from EMSI API](https://miro.medium.com/max/1236/1*phFqrSRFeVrTnktme3pEQA.png)
 
 
 You can see here there are both hard and soft skills, each skill has a unique ID, and each skill is standardized and proper cased. Each skill type has a type ID as well. There are nearly 30,000 skills listed here!
